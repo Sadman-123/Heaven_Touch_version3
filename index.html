@@ -1,0 +1,2244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Heaven Touch Tourism Ltd</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&family=Poppins:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+
+    <div class="overlay" data-overlay></div>
+
+    <div class="header-top">
+      <div class="container">
+        <a href="tel:+01123456790" class="helpline-box">
+
+          <div class="icon-box">
+            <ion-icon name="call-outline"></ion-icon>
+          </div>
+
+          <div class="wrapper">
+            <p class="helpline-title">For Further Inquires :</p>
+
+            <p class="helpline-number">+880 9639 104518</p>
+          </div>
+
+        </a>
+         <a href="#" class="logo">
+          <img src="./assets/images/logo.svg" alt="Tourly logo">
+        </a>
+        <div class="header-btn-group">
+          <button class="nav-open-btn" aria-label="Open Menu" data-nav-open-btn>
+            <ion-icon name="menu-outline"></ion-icon>
+          </button>
+
+        </div>
+
+      </div>
+    </div>
+
+    <div class="header-bottom">
+      <div class="container">
+
+        <ul class="social-list">
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-whatsapp"></ion-icon>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-yahoo"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+        <nav class="navbar" data-navbar>
+
+          <div class="navbar-top">
+
+            <a href="#" class="logo">
+              <img src="./assets/images/logo.svg" alt="Tourly logo">
+            </a>
+
+            <button class="nav-close-btn" aria-label="Close Menu" data-nav-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+          </div>
+
+          <ul class="navbar-list">
+
+            <li>
+              <a href="#home" class="navbar-link" data-nav-link>home</a>
+            </li>
+
+            <li>
+              <a href="#about" class="navbar-link" data-nav-link>about us</a>
+            </li>
+
+            <li>
+              <a href="#destination" class="navbar-link" data-nav-link>destination</a>
+            </li>
+
+            <li>
+              <a href="#package" class="navbar-link" data-nav-link>packages</a>
+            </li>
+
+            <li>
+              <a href="#gallery" class="navbar-link" data-nav-link>gallery</a>
+            </li>
+
+            <li>
+              <a href="#contact" class="navbar-link" data-nav-link>contact us</a>
+            </li>
+
+          </ul>
+
+        </nav>
+
+        <button class="btn btn-primary">Book Now</button>
+
+      </div>
+    </div>
+
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="hero" id="home">
+        <div class="container">
+    
+            <h2 class="h1 hero-title" id="hero-title">Journey to explore world</h2>
+    
+            <p class="hero-text">
+    Your Travel Operator and Tour Promoter
+               
+            </p>
+    
+            <div class="btn-group">
+                <button class="btn btn-primary">Learn more</button>
+    
+                <button class="btn btn-secondary" id="lol">Booking now</button>
+            </div>
+    
+        </div>
+    
+        <!-- Video element for background -->
+        <video class="background-video" autoplay loop muted playsinline>
+            <source src="./assets/images/video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </section>
+    
+
+
+
+
+
+      <!-- 
+        - #TOUR SEARCH
+      -->
+
+      <section class="tour-search">
+        <div class="container">
+          <form action="" class="tour-search-form">
+            
+            <div class="input-wrapper">
+              <label for="destination" class="input-label">Choose Package*</label>
+
+              <input type="text" name="destination" id="destination" required placeholder="Enter Destination"
+                class="input-field">
+            </div>
+            
+            <div class="input-wrapper">
+              <label for="people" class="input-label">Pax Number*</label>
+
+              <input type="number" name="people" id="people" required placeholder="No.of People" class="input-field">
+            </div>
+
+            <div class="input-wrapper">
+              <label for="checkin" class="input-label">Checkin Date**</label>
+
+              <input type="date" name="checkin" id="checkin" required class="input-field">
+            </div>
+
+            <div class="input-wrapper">
+              <label for="checkout" class="input-label">Checkout Date*</label>
+
+              <input type="date" name="checkout" id="checkout" required class="input-field">
+            </div>
+
+            <button type="submit" class="btn btn-secondary">Book now</button>
+
+          </form>
+
+        </div>
+      </section>
+
+
+<!--About us-->
+<section class="about" id="about">
+  <div class="container">
+    <p class="section-subtitle">About Us</p>
+    <h2 class="h2 section-title">We are Heaven Touch Tourism Ltd</h2>
+    <p><strong>Type of ownership:</strong> Limited Company</p>
+    <p>Heaven Touch Tourism Ltd has been established in 2004 by Mr. Shahed Ahmmed Shrabon.
+       Since the inception in 1999, Heaven Touch Tourism Ltd. is a Member of Tour operator
+       Association of Bangladesh TOAB, BOTOF, TDSB & IATA. We are committed to provide a professional
+       one-stop tourism service to fulfill the need of inbound & outbound tour with warmth &
+       luxurious satisfaction.</p>
+    <p>Heaven Touch Tourism Ltd. handles Students study tours, corporate tours, Youth tours,
+       Honeymoon tours & Family package tours of South East Asia. Our tourism service covers the
+       areas of Traveling, Transportation, Food, Lodging & Visa processing.</p>
+    <p>We have already started our England & Spain tours. We have our own hotels, ‘Hotel Darjeeling
+       Palace’ in Darjeeling, “Hotel Junayed” in Kashmir (Srinagar), India, and we are the sole
+       agent (GSA) for “Hotel Brihaspati” in Kathmandu, Nepal. So, we can provide our hotels with
+       discounts for all travel agents & Tour Operators in Bangladesh.</p>
+    <p>Our tourism destinations include Bangladesh, India, Nepal, Bhutan, Thailand, Malaysia, Singapore,
+       Indonesia, Sri Lanka, Maldives, China, Dubai, Spain & England.</p>
+    <p>No. of employees: In Bangladesh 10 persons & Out of another country like India, Nepal,
+       Malaysia, Thailand & Singapore, Spain, & London total 18 persons. So, we have 28 employees.</p>
+  </div>
+</section>
+
+
+
+
+      <!-- 
+        - #POPULAR
+      -->
+      <section class="popular" id="destination">
+        <div class="container">
+      
+          <p class="section-subtitle">Uncover place</p>
+          <h2 class="h2 section-title">Popular destination</h2>
+          <p class="section-text">
+            Immerse yourself in the culture and traditions of each destination with authentic experiences.
+          </p>
+      
+          <div class="tabs">
+            <button class="tab-link active" onclick="openTab(event, 'International')">🌐 International</button>
+            <button class="tab-link" onclick="openTab(event, 'Domestic')">🇧🇩 Domestic</button>
+          </div>
+      
+          <ul class="popular-list" id="International">
+            <li>
+              <div class="popular-card">
+                <figure class="card-img">
+                  <img src="./assets/images/tajmohol.jpeg" alt="tajmahal" loading="lazy">
+                </figure>
+                <div class="card-content">
+                  <div class="card-rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+                  <p class="card-subtitle">
+                    <a href="#">India</a>
+                  </p>
+                  <h3 class="h3 card-title">
+                    <a href="#">Taj mahal</a>
+                  </h3>
+                  <p class="card-text">
+                    Fusce hic augue velit wisi ips quibusdam pariatur, iusto.
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="popular-card">
+                <figure class="card-img">
+                  <img src="./assets/images/dubai.jpg" alt="dubai" loading="lazy">
+                </figure>
+                <div class="card-content">
+                  <div class="card-rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+                  <p class="card-subtitle">
+                    <a href="#">Dubai</a>
+                  </p>
+                  <h3 class="h3 card-title">
+                    <a href="#">Burj khalifa</a>
+                  </h3>
+                  <p class="card-text">
+                    Fusce hic augue velit wisi ips quibusdam pariatur, iusto.
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="popular-card">
+                <figure class="card-img">
+                  <img src="https://dcontent.inviacdn.net/shared/img/web-830/2023/2/15/m1/1665839.jpg" alt="Srilanka" loading="lazy">
+                </figure>
+                <div class="card-content">
+                  <div class="card-rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+                  <p class="card-subtitle">
+                    <a href="#">Srilanka</a>
+                  </p>
+                  <h3 class="h3 card-title">
+                    <a href="#">Sigiriya</a>
+                  </h3>
+                  <p class="card-text">
+                    Fusce hic augue velit wisi ips quibusdam pariatur, iusto.
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="popular-card">
+                <figure class="card-img">
+                  <img src="./assets/images/maldives.jpeg" alt="Maldives" loading="lazy">
+                </figure>
+                <div class="card-content">
+                  <div class="card-rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+                  <p class="card-subtitle">
+                    <a href="#">Maldives</a>
+                  </p>
+                  <h3 class="h3 card-title">
+                    <a href="#">Maldives</a>
+                  </h3>
+                  <p class="card-text">
+                    Fusce hic augue velit wisi ips quibusdam pariatur, iusto.
+                  </p>
+                </div>
+              </div>
+            </li>
+          </ul>
+      
+          <ul class="popular-list" id="Domestic" style="display:none;">
+            <li>
+              <div class="popular-card">
+                <figure class="card-img">
+                  <img src="./assets/images/Sundarban.jpg" alt="Sundarban" loading="lazy">
+                </figure>
+                <div class="card-content">
+                  <div class="card-rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+                  <p class="card-subtitle">
+                    <a href="#">Bagherhat</a>
+                  </p>
+                  <h3 class="h3 card-title">
+                    <a href="#">SUNDARBAN</a>
+                  </h3>
+                  <p class="card-text">
+                    Fusce hic augue velit wisi ips quibusdam pariatur, iusto.
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="popular-card">
+                <figure class="card-img">
+                  <img src="./assets/images/Coxs-Bazar.jpg" alt="Coxs-Bazar" loading="lazy">
+                </figure>
+                <div class="card-content">
+                  <div class="card-rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+                  <p class="card-subtitle">
+                    <a href="#">Chittagong</a>
+                  </p>
+                  <h3 class="h3 card-title">
+                    <a href="#">Coxs Bazar</a>
+                  </h3>
+                  <p class="card-text">
+                    Fusce hic augue velit wisi ips quibusdam pariatur, iusto.
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="popular-card">
+                <figure class="card-img">
+                  <img src="./assets/images/rangamati.jpg" alt="Rangamati" loading="lazy">
+                </figure>
+                <div class="card-content">
+                  <div class="card-rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+                  <p class="card-subtitle">
+                    <a href="#">Chittagong</a>
+                  </p>
+                  <h3 class="h3 card-title">
+                    <a href="#">Rangamati</a>
+                  </h3>
+                  <p class="card-text">
+                    Fusce hic augue velit wisi ips quibusdam pariatur, iusto.
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="popular-card">
+                <figure class="card-img">
+                  <img src="./assets/packages/bandarban.jpeg" alt="Bandarban" loading="lazy">
+                </figure>
+                <div class="card-content">
+                  <div class="card-rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+                  <p class="card-subtitle">
+                    <a href="#">Chittagong</a>
+                  </p>
+                  <h3 class="h3 card-title">
+                    <a href="#">BANDARBAN</a>
+                  </h3>
+                  <p class="card-text">
+                    Fusce hic augue velit wisi ips quibusdam pariatur, iusto.
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="popular-card">
+                <figure class="card-img">
+                  <img src="./assets/images/sajek.jpg" alt="sajek" loading="lazy">
+                </figure>
+                <div class="card-content">
+                  <div class="card-rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+                  <p class="card-subtitle">
+                    <a href="#">Rangamati</a>
+                  </p>
+                  <h3 class="h3 card-title">
+                    <a href="#">SAJEK</a>
+                  </h3>
+                  <p class="card-text">
+                    Fusce hic augue velit wisi ips quibusdam pariatur, iusto.
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="popular-card">
+                <figure class="card-img">
+                  <img src="./assets/images/sylhet.jpg" alt="sylhet" loading="lazy">
+                </figure>
+                <div class="card-content">
+                  <div class="card-rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+                  <p class="card-subtitle">
+                    <a href="#">Sylhet</a>
+                  </p>
+                  <h3 class="h3 card-title">
+                    <a href="#">Sylhet</a>
+                  </h3>
+                  <p class="card-text">
+                    Fusce hic augue velit wisi ips quibusdam pariatur, iusto.
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="popular-card">
+                <figure class="card-img">
+                  <img src="./assets/images/potua.jpg" alt="kuakata" loading="lazy">
+                </figure>
+                <div class="card-content">
+                  <div class="card-rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+                  <p class="card-subtitle">
+                    <a href="#">Potuakhali</a>
+                  </p>
+                  <h3 class="h3 card-title">
+                    <a href="#">Kuakata</a>
+                  </h3>
+                  <p class="card-text">
+                    Fusce hic augue velit wisi ips quibusdam pariatur, iusto.
+                  </p>
+                </div>
+              </div>
+            </li>
+          </ul>
+      
+          <button class="btn btn-primary">More destination</button>
+        </div>
+      </section>
+      
+      
+
+
+
+      <!-- 
+        - #PACKAGE
+      -->
+
+      <section class="package" id="package">
+        <div class="container">
+      
+          <p class="section-subtitle">Popular Packages</p>
+          <h2 class="h2 section-title">Checkout Our Packages</h2>
+          <p class="section-text">
+            Fusce hic augue velit wisi quibusdam pariatur, iusto primis, nec nemo, rutrum. Vestibulum cumque laudantium.
+            Sit ornare mollitia tenetur, aptent.
+          </p>
+      
+          <div class="tabs">
+            <button class="tab-link active" onclick="openTa(event, 'Inter')">🌐 International</button>
+            <button class="tab-link" onclick="openTa(event, 'Dom')">🇧🇩 Domestic</button>
+          </div>
+      
+          <div id="Inter" class="tab-content">
+            <ul class="package-list">
+              <!-- International packages here -->
+              <li>
+                <div class="package-card">
+                  <figure class="card-banner">
+                    <img src="./assets/packages/kashmir.jpg" alt="Kashmir" loading="lazy">
+                  </figure>
+                  <div class="card-content">
+                    <h3 class="h3 card-title">KASHMIR TOUR</h3>
+                    <h5 class="card-text">
+                      SRINAGAR - GULMARG - SONMARG - PAHALGAM
+                    </h5>
+                    <p class="card-text">
+                      Laoreet, voluptatum nihil dolor esse quaerat mattis explicabo maiores, est aliquet porttitor! Eaque,
+                      cras, aspernatur.
+                    </p>
+                    <ul class="card-meta-list">
+                      <li class="card-meta-item">
+                        <div class="meta-box">
+                          <ion-icon name="time"></ion-icon>
+                          <p class="text">7D/6N</p>
+                        </div>
+                      </li>
+                      <li class="card-meta-item">
+                        <div class="meta-box">
+                          <ion-icon name="people"></ion-icon>
+                          <p class="text">pax: 10</p>
+                        </div>
+                      </li>
+                      <li class="card-meta-item">
+                        <div class="meta-box">
+                          <ion-icon name="location"></ion-icon>
+                          <p class="text">INDIA</p>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="card-price">
+                    <div class="wrapper">
+                      <p class="reviews">(25 reviews)</p>
+                      <div class="card-rating">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                      </div>
+                    </div>
+                    <p class="price">$750 <span>/ per person</span></p>
+                    <button class="btn btn-secondary">Book Now</button>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="package-card">
+                  <figure class="card-banner">
+                    <img src="./assets/packages/GOA.jpg" alt="GOA" loading="lazy">
+                  </figure>
+                  <div class="card-content">
+                    <h3 class="h3 card-title">GOA TOUR</h3>
+                    <h5 class="card-text">
+                      MUMBAI - GOA
+                    </h5>
+                    <p class="card-text">
+                      Laoreet, voluptatum nihil dolor esse quaerat mattis explicabo maiores, est aliquet porttitor! Eaque,
+                      cras, aspernatur.
+                    </p>
+                    <ul class="card-meta-list">
+                      <li class="card-meta-item">
+                        <div class="meta-box">
+                          <ion-icon name="time"></ion-icon>
+                          <p class="text">7D/6N</p>
+                        </div>
+                      </li>
+                      <li class="card-meta-item">
+                        <div class="meta-box">
+                          <ion-icon name="people"></ion-icon>
+                          <p class="text">pax: 10</p>
+                        </div>
+                      </li>
+                      <li class="card-meta-item">
+                        <div class="meta-box">
+                          <ion-icon name="location"></ion-icon>
+                          <p class="text">INDIA</p>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="card-price">
+                    <div class="wrapper">
+                      <p class="reviews">(25 reviews)</p>
+                      <div class="card-rating">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                      </div>
+                    </div>
+                    <p class="price">$750 <span>/ per person</span></p>
+                    <button class="btn btn-secondary">Book Now</button>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="package-card">
+                  <figure class="card-banner">
+                    <img src="./assets/packages/darjeeling.jpg" alt="Darjeeling" loading="lazy">
+                  </figure>
+                  <div class="card-content">
+                    <h3 class="h3 card-title">DARJEELING TOUR</h3>
+                    <h5 class="card-text">
+                      SILIGURI - MIRIK - DARJEELING
+                    </h5>
+                    <p class="card-text">
+                      Laoreet, voluptatum nihil dolor esse quaerat mattis explicabo maiores, est aliquet porttitor! Eaque,
+                      cras, aspernatur.
+                    </p>
+                    <ul class="card-meta-list">
+                      <li class="card-meta-item">
+                        <div class="meta-box">
+                          <ion-icon name="time"></ion-icon>
+                          <p class="text">7D/6N</p>
+                        </div>
+                      </li>
+                      <li class="card-meta-item">
+                        <div class="meta-box">
+                          <ion-icon name="people"></ion-icon>
+                          <p class="text">pax: 10</p>
+                        </div>
+                      </li>
+                      <li class="card-meta-item">
+                        <div class="meta-box">
+                          <ion-icon name="location"></ion-icon>
+                          <p class="text">INDIA</p>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="card-price">
+                    <div class="wrapper">
+                      <p class="reviews">(25 reviews)</p>
+                      <div class="card-rating">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                      </div>
+                    </div>
+                    <p class="price">$750 <span>/ per person</span></p>
+                    <button class="btn btn-secondary">Book Now</button>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="package-card">
+                  <figure class="card-banner">
+                    <img src="./assets/packages/sikkim.png" alt="SIKKIM" loading="lazy">
+                  </figure>
+                  <div class="card-content">
+                    <h3 class="h3 card-title">SIKKIM TOUR</h3>
+                    <h5 class="card-text">
+                      SILIGURI - GANGTOK - LACHUNG
+                    </h5>
+                    <p class="card-text">
+                      Laoreet, voluptatum nihil dolor esse quaerat mattis explicabo maiores, est aliquet porttitor! Eaque,
+                      cras, aspernatur.
+                    </p>
+                    <ul class="card-meta-list">
+                      <li class="card-meta-item">
+                        <div class="meta-box">
+                          <ion-icon name="time"></ion-icon>
+                          <p class="text">7D/6N</p>
+                        </div>
+                      </li>
+                      <li class="card-meta-item">
+                        <div class="meta-box">
+                          <ion-icon name="people"></ion-icon>
+                          <p class="text">pax: 10</p>
+                        </div>
+                      </li>
+                      <li class="card-meta-item">
+                        <div class="meta-box">
+                          <ion-icon name="location"></ion-icon>
+                          <p class="text">INDIA</p>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="card-price">
+                    <div class="wrapper">
+                      <p class="reviews">(25 reviews)</p>
+                      <div class="card-rating">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                      </div>
+                    </div>
+                    <p class="price">$750 <span>/ per person</span></p>
+                    <button class="btn btn-secondary">Book Now</button>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="package-card">
+                  <figure class="card-banner">
+                    <img src="./assets/packages/shillong.jpg" alt="shillong" loading="lazy">
+                  </figure>
+                  <div class="card-content">
+                    <h3 class="h3 card-title">SHILLONG TOUR</h3>
+                    <h5 class="card-text">
+                      CHERAPUNJI - GUWAHATI - SHILLONG
+                    </h5>
+                    <p class="card-text">
+                      Laoreet, voluptatum nihil dolor esse quaerat mattis explicabo maiores, est aliquet porttitor! Eaque,
+                      cras, aspernatur.
+                    </p>
+                    <ul class="card-meta-list">
+                      <li class="card-meta-item">
+                        <div class="meta-box">
+                          <ion-icon name="time"></ion-icon>
+                          <p class="text">7D/6N</p>
+                        </div>
+                      </li>
+                      <li class="card-meta-item">
+                        <div class="meta-box">
+                          <ion-icon name="people"></ion-icon>
+                          <p class="text">pax: 10</p>
+                        </div>
+                      </li>
+                      <li class="card-meta-item">
+                        <div class="meta-box">
+                          <ion-icon name="location"></ion-icon>
+                          <p class="text">INDIA</p>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="card-price">
+                    <div class="wrapper">
+                      <p class="reviews">(25 reviews)</p>
+                      <div class="card-rating">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                      </div>
+                    </div>
+                    <p class="price">$750 <span>/ per person</span></p>
+                    <button class="btn btn-secondary">Book Now</button>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="package-card">
+                  <figure class="card-banner">
+                    <img src="./assets/packages/agartala.jpg" alt="agartala" loading="lazy">
+                  </figure>
+                  <div class="card-content">
+                    <h3 class="h3 card-title">AGARTALA TOUR</h3>
+                    <h5 class="card-text">
+                      AGARTALA - MIJORAM
+                    </h5>
+                    <p class="card-text">
+                      Laoreet, voluptatum nihil dolor esse quaerat mattis explicabo maiores, est aliquet porttitor! Eaque,
+                      cras, aspernatur.
+                    </p>
+                    <ul class="card-meta-list">
+                      <li class="card-meta-item">
+                        <div class="meta-box">
+                          <ion-icon name="time"></ion-icon>
+                          <p class="text">7D/6N</p>
+                        </div>
+                      </li>
+                      <li class="card-meta-item">
+                        <div class="meta-box">
+                          <ion-icon name="people"></ion-icon>
+                          <p class="text">pax: 10</p>
+                        </div>
+                      </li>
+                      <li class="card-meta-item">
+                        <div class="meta-box">
+                          <ion-icon name="location"></ion-icon>
+                          <p class="text">INDIA</p>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="card-price">
+                    <div class="wrapper">
+                      <p class="reviews">(25 reviews)</p>
+                      <div class="card-rating">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                      </div>
+                    </div>
+                    <p class="price">$750 <span>/ per person</span></p>
+                    <button class="btn btn-secondary">Book Now</button>
+                  </div>
+                </div>
+              </li>
+              <!-- More international packages here -->
+            </ul>
+          </div>
+      
+          <div id="Dom" class="tab-content" style="display:none">
+            <ul class="package-list">
+              <!-- Domestic packages here -->
+              <li>
+                <div class="package-card">
+                  <figure class="card-banner">
+                    <img src="./assets/images/Sundarban.jpg" alt="Summer Holiday To The Oxolotan River" loading="lazy">
+                  </figure>
+                  <div class="card-content">
+                    <h3 class="h3 card-title">Sundarban TOUR</h3>
+                    <p class="card-text">
+                      Explore the Sundarbans, where the confluence of rivers creates a stunning landscape. Our package takes you deep into this UNESCO World Heritage Site, offering close encounters with exotic wildlife and serene mangrove swamps.
+                    </p>
+                    <ul class="card-meta-list">
+                      <li class="card-meta-item">
+                        <div class="meta-box"> 
+                          <ion-icon name="time"></ion-icon>
+                          <p class="text">2D/3N</p>
+                        </div>
+                      </li>
+                      <li class="card-meta-item">
+                        <div class="meta-box">
+                          <ion-icon name="people"></ion-icon>
+                          <p class="text">pax: 10</p>
+                        </div>
+                      </li>
+                      <li class="card-meta-item">
+                        <div class="meta-box">
+                          <ion-icon name="location"></ion-icon>
+                          <p class="text">BAGHERHAT</p>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="card-price">
+                    <div class="wrapper">
+                      <p class="reviews">(20 reviews)</p>
+                      <div class="card-rating">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                      </div>
+                    </div>
+                    <p class="price">$520 <span>/ per person</span></p>
+                    <button class="btn btn-secondary">Book Now</button>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="package-card">
+                  <figure class="card-banner">
+                    <img src="./assets/images/Coxs-Bazar.jpg" alt="Coxbazar" loading="lazy">
+                  </figure>
+                  <div class="card-content">
+                    <h3 class="h3 card-title">COX'S BAZAR TOUR</h3>
+                    <p class="card-text">
+                      Escape to Cox's Bazar, where endless stretches of sandy beaches meet the gentle waves of the Bay of Bengal. Our package offers you the perfect beach getaway, complete with luxury accommodations and exciting activities.
+                    </p>
+                    <ul class="card-meta-list">
+                      <li class="card-meta-item">
+                        <div class="meta-box">
+                          <ion-icon name="time"></ion-icon>
+                          <p class="text">3D/4N</p>
+                        </div>
+                      </li>
+                      <li class="card-meta-item">
+                        <div class="meta-box">
+                          <ion-icon name="people"></ion-icon>
+                          <p class="text">Min Pax: 4</p>
+                        </div>
+                      </li>
+                      <li class="card-meta-item">
+                        <div class="meta-box">
+                          <ion-icon name="location"></ion-icon>
+                          <p class="text">CHITTAGONG</p>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="card-price">
+                    <div class="wrapper">
+                      <p class="reviews">(20 reviews)</p>
+                      <div class="card-rating">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                      </div>
+                    </div>
+                    <p class="price">$520 <span>/ per person</span></p>
+                    <button class="btn btn-secondary">Book Now</button>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="package-card">
+                  <figure class="card-banner">
+                    <img src="./assets/images/stmartin.png" alt="Summer Holiday To The Oxolotan River" loading="lazy">
+                  </figure>
+                  <div class="card-content">
+                    <h3 class="h3 card-title">COX'S BAZAR - SAINT MARTIN TOUR</h3>
+                    <p class="card-text">
+                      Discover the untouched beauty of Saint Martin, where azure waters meet lush greenery. Our package promises an unforgettable retreat, with opportunities for snorkeling, diving, and lazy days spent lounging on the beach.
+                    </p>
+                    <ul class="card-meta-list">
+                      <li class="card-meta-item">
+                        <div class="meta-box">
+                          <ion-icon name="time"></ion-icon>
+                          <p class="text">4D/3N</p>
+                        </div>
+                      </li>
+                      <li class="card-meta-item">
+                        <div class="meta-box">
+                          <ion-icon name="people"></ion-icon>
+                          <p class="text">pax: 4</p>
+                        </div>
+                      </li>
+                      <li class="card-meta-item">
+                        <div class="meta-box">
+                          <ion-icon name="location"></ion-icon>
+                          <p class="text">CHITTAGONG</p>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="card-price">
+                    <div class="wrapper">
+                      <p class="reviews">(20 reviews)</p>
+                      <div class="card-rating">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                      </div>
+                    </div>
+                    <p class="price">$520 <span>/ per person</span></p>
+                    <button class="btn btn-secondary">Book Now</button>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="package-card">
+                  <figure class="card-banner">
+                    <img src="./assets/images/rangamati.jpg" alt="Summer Holiday To The Oxolotan River" loading="lazy">
+                  </figure>
+                  <div class="card-content">
+                    <h3 class="h3 card-title">RANGMATI TOUR</h3>
+                    <p class="card-text">
+                      Welcome to Rangamati, a captivating destination nestled amidst the lush green hills and serene lakes of the Chittagong Hill Tracts. Our bespoke package invites you to immerse yourself in the natural beauty, rich culture, and tranquil ambiance of this picturesque region.
+                    </p>
+                    <ul class="card-meta-list">
+                      <li class="card-meta-item">
+                        <div class="meta-box">
+                          <ion-icon name="time"></ion-icon>
+                          <p class="text">2D/2N</p>
+                        </div>
+                      </li>
+                      <li class="card-meta-item">
+                        <div class="meta-box">
+                          <ion-icon name="people"></ion-icon>
+                          <p class="text">Min pax: 4</p>
+                        </div>
+                      </li>
+                      <li class="card-meta-item">
+                        <div class="meta-box">
+                          <ion-icon name="location"></ion-icon>
+                          <p class="text">CHITTAGONG</p>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="card-price">
+                    <div class="wrapper">
+                      <p class="reviews">(20 reviews)</p>
+                      <div class="card-rating">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                      </div>
+                    </div>
+                    <p class="price">$520 <span>/ per person</span></p>
+                    <button class="btn btn-secondary">Book Now</button>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="package-card">
+                  <figure class="card-banner">
+                    <img src="./assets/packages/bandarban.jpeg" alt="Summer Holiday To The Oxolotan River" loading="lazy">
+                  </figure>
+                  <div class="card-content">
+                    <h3 class="h3 card-title">BANDARBAN TOUR</h3>
+                    <p class="card-text">
+                      Discover the natural wonders of Bandarban, where towering peaks and cascading waterfalls beckon the adventurous soul. Our package offers an immersive experience, allowing you to trek through ancient forests, visit remote tribal villages, and marvel at breathtaking vistas.
+                    </p>
+                    <ul class="card-meta-list">
+                      <li class="card-meta-item">
+                        <div class="meta-box">
+                          <ion-icon name="time"></ion-icon>
+                          <p class="text">3D/4N</p>
+                        </div>
+                      </li>
+                      <li class="card-meta-item">
+                        <div class="meta-box">
+                          <ion-icon name="people"></ion-icon>
+                          <p class="text">Min pax: 4</p>
+                        </div>
+                      </li>
+                      <li class="card-meta-item">
+                        <div class="meta-box">
+                          <ion-icon name="location"></ion-icon>
+                          <p class="text">CHITTAGONG</p>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="card-price">
+                    <div class="wrapper">
+                      <p class="reviews">(20 reviews)</p>
+                      <div class="card-rating">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                      </div>
+                    </div>
+                    <p class="price">$520 <span>/ per person</span></p>
+                    <button class="btn btn-secondary">Book Now</button>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="package-card">
+                  <figure class="card-banner">
+                    <img src="./assets/images/sajek.jpg" alt="Sajek" loading="lazy">
+                  </figure>
+                  <div class="card-content">
+                    <h3 class="h3 card-title">SAJEK TOUR</h3>
+                    <p class="card-text">
+                      Welcome to Sajek Valley, a pristine paradise nestled amidst the verdant hills of Bangladesh's Rangamati district. Our exclusive package invites you to escape the ordinary and immerse yourself in the breathtaking beauty and tranquil ambiance of this enchanting destination.
+                    </p>
+                    <ul class="card-meta-list">
+                      <li class="card-meta-item">
+                        <div class="meta-box">
+                          <ion-icon name="time"></ion-icon>
+                          <p class="text">3D/2N</p>
+                        </div>
+                      </li>
+                      <li class="card-meta-item">
+                        <div class="meta-box">
+                          <ion-icon name="people"></ion-icon>
+                          <p class="text">Min pax: 4</p>
+                        </div>
+                      </li>
+                      <li class="card-meta-item">
+                        <div class="meta-box">
+                          <ion-icon name="location"></ion-icon>
+                          <p class="text">RANGAMATI</p>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="card-price">
+                    <div class="wrapper">
+                      <p class="reviews">(20 reviews)</p>
+                      <div class="card-rating">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                      </div>
+                    </div>
+                    <p class="price">$520 <span>/ per person</span></p>
+                    <button class="btn btn-secondary">Book Now</button>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="package-card">
+                  <figure class="card-banner">
+                    <img src="./assets/images/sylhet.jpg" alt="Summer Holiday To The Oxolotan River" loading="lazy">
+                  </figure>
+                  <div class="card-content">
+                    <h3 class="h3 card-title">SYLHET TOUR</h3>
+                    <p class="card-text">
+                      Discover the natural splendor of Sylhet, where rolling hills, lush forests, and sparkling rivers create a landscape straight out of a fairy tale. Our package offers a unique opportunity to explore iconic attractions such as the breathtaking Ratargul Swamp Forest, the majestic Jaflong, and the tranquil Lalakhal River.
+                    </p>
+                    <ul class="card-meta-list">
+                      <li class="card-meta-item">
+                        <div class="meta-box">
+                          <ion-icon name="time"></ion-icon>
+                          <p class="text">3D/3N</p>
+                        </div>
+                      </li>
+                      <li class="card-meta-item">
+                        <div class="meta-box">
+                          <ion-icon name="people"></ion-icon>
+                          <p class="text">Min pax: 4</p>
+                        </div>
+                      </li>
+                      <li class="card-meta-item">
+                        <div class="meta-box">
+                          <ion-icon name="location"></ion-icon>
+                          <p class="text">SYLHET</p>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="card-price">
+                    <div class="wrapper">
+                      <p class="reviews">(20 reviews)</p>
+                      <div class="card-rating">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                      </div>
+                    </div>
+                    <p class="price">$520 <span>/ per person</span></p>
+                    <button class="btn btn-secondary">Book Now</button>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="package-card">
+                  <figure class="card-banner">
+                    <img src="./assets/packages/tang.jpeg" alt="Summer Holiday To The Oxolotan River" loading="lazy">
+                  </figure>
+                  <div class="card-content">
+                    <h3 class="h3 card-title">TANGUAR HAOR TOUR</h3>
+                    <p class="card-text">
+                      Welcome to Tanguar Haor, a haven for nature enthusiasts and birdwatchers alike. Our exclusive package invites you to delve into the pristine beauty and ecological wonders of this unique wetland sanctuary, where tranquility and biodiversity converge in perfect harmony.
+                    </p>
+                    <ul class="card-meta-list">
+                      <li class="card-meta-item">
+                        <div class="meta-box">
+                          <ion-icon name="time"></ion-icon>
+                          <p class="text">2D/3N</p>
+                        </div>
+                      </li>
+                      <li class="card-meta-item">
+                        <div class="meta-box">
+                          <ion-icon name="people"></ion-icon>
+                          <p class="text">Min pax: 10</p>
+                        </div>
+                      </li>
+                      <li class="card-meta-item">
+                        <div class="meta-box">
+                          <ion-icon name="location"></ion-icon>
+                          <p class="text">SYLHET</p>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="card-price">
+                    <div class="wrapper">
+                      <p class="reviews">(20 reviews)</p>
+                      <div class="card-rating">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                      </div>
+                    </div>
+                    <p class="price">BDT 6,500 <span>/ per person</span></p>
+                    <button class="btn btn-secondary">Book Now</button>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="package-card">
+                  <figure class="card-banner">
+                    <img src="./assets/images/potua.jpg" alt="Summer Holiday To The Oxolotan River" loading="lazy">
+                  </figure>
+                  <div class="card-content">
+                    <h3 class="h3 card-title">KUAKATA TOUR</h3>
+                    <p class="card-text">
+                      Discover the serene beauty of Kuakata, where golden sands meet the azure waters of the Bay of Bengal. Our package offers a perfect blend of relaxation and adventure, with opportunities for beachcombing, swimming, and exploring the vibrant local culture.
+                    </p>
+                    <ul class="card-meta-list">
+                      <li class="card-meta-item">
+                        <div class="meta-box">
+                          <ion-icon name="time"></ion-icon>
+                          <p class="text">4D/3N</p>
+                        </div>
+                      </li>
+                      <li class="card-meta-item">
+                        <div class="meta-box">
+                          <ion-icon name="people"></ion-icon>
+                          <p class="text">Min pax: 4</p>
+                        </div>
+                      </li>
+                      <li class="card-meta-item">
+                        <div class="meta-box">
+                          <ion-icon name="location"></ion-icon>
+                          <p class="text">PATUAKHALI</p>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="card-price">
+                    <div class="wrapper">
+                      <p class="reviews">(20 reviews)</p>
+                      <div class="card-rating">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                      </div>
+                    </div>
+                    <p class="price">$520 <span>/ per person</span></p>
+                    <button class="btn btn-secondary">Book Now</button>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="package-card">
+                  <figure class="card-banner">
+                    <img src="./assets/packages/dhaka.jpg" alt="Summer Holiday To The Oxolotan River" loading="lazy">
+                  </figure>
+                  <div class="card-content">
+                    <h2 class="h2 section-title">FOREIGN PACKAGES</h2>
+                    <h3  class="h3 card-title">DHAKA CITY TOUR</h3>
+                    <ul class="card-meta-list">
+                      <li class="card-meta-item">
+                        <div class="meta-box">
+                          <ion-icon name="time"></ion-icon>
+                          <p class="text">3D/4N</p>
+                        </div>
+                      </li>
+                      <li class="card-meta-item">
+                        <div class="meta-box">
+                          <ion-icon name="people"></ion-icon>
+                          <p class="text">Min pax: 4</p>
+                        </div>
+                      </li>
+                      <li class="card-meta-item">
+                        <div class="meta-box">
+                          <ion-icon name="location"></ion-icon>
+                          <p class="text">DHAKA</p>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="card-price">
+                    <div class="wrapper">
+                      <p class="reviews">(20 reviews)</p>
+                      <div class="card-rating">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                      </div>
+                    </div>
+                    <p class="price">$520 <span>/ per person</span></p>
+                    <button class="btn btn-secondary">Book Now</button>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="package-card">
+                  <figure class="card-banner">
+                    <img src="./assets/packages/rajshahi city.jpg" alt="Summer Holiday To The Oxolotan River" loading="lazy">
+                  </figure>
+                  <div class="card-content">
+                    <h3 class="h3 card-title">DHAKA - RAJSHAHI - BOGURA</h3>
+                    <ul class="card-meta-list">
+                      <li class="card-meta-item">
+                        <div class="meta-box">
+                          <ion-icon name="time"></ion-icon>
+                          <p class="text">3D/4N</p>
+                        </div>
+                      </li>
+                      <li class="card-meta-item">
+                        <div class="meta-box">
+                          <ion-icon name="people"></ion-icon>
+                          <p class="text">Min pax: 4</p>
+                        </div>
+                      </li>
+                      <li class="card-meta-item">
+                        <div class="meta-box">
+                          <ion-icon name="location"></ion-icon>
+                          <p class="text">BANGLADESH</p>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="card-price">
+                    <div class="wrapper">
+                      <p class="reviews">(20 reviews)</p>
+                      <div class="card-rating">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                      </div>
+                    </div>
+                    <p class="price">$520 <span>/ per person</span></p>
+                    <button class="btn btn-secondary">Book Now</button>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="package-card">
+                  <figure class="card-banner">
+                    <img src="./assets/packages/rongpur.jpeg" alt="Summer Holiday To The Oxolotan River" loading="lazy">
+                  </figure>
+                  <div class="card-content">
+                    <h3 class="h3 card-title">DHAKA - RANGPUR - DINAJPUR</h3>
+                    
+                    <ul class="card-meta-list">
+                      <li class="card-meta-item">
+                        <div class="meta-box">
+                          <ion-icon name="time"></ion-icon>
+                          <p class="text">3D/4N</p>
+                        </div>
+                      </li>
+                      <li class="card-meta-item">
+                        <div class="meta-box">
+                          <ion-icon name="people"></ion-icon>
+                          <p class="text">Min pax: 4</p>
+                        </div>
+                      </li>
+                      <li class="card-meta-item">
+                        <div class="meta-box">
+                          <ion-icon name="location"></ion-icon>
+                          <p class="text">BANGLADESH</p>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="card-price">
+                    <div class="wrapper">
+                      <p class="reviews">(20 reviews)</p>
+                      <div class="card-rating">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                      </div>
+                    </div>
+                    <p class="price">$520 <span>/ per person</span></p>
+                    <button class="btn btn-secondary">Book Now</button>
+                  </div>
+                </div>
+              </li>
+              <!-- More domestic packages here -->
+            </ul>
+          </div>
+      
+          <button class="btn btn-primary">View All Packages</button>
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #GALLERY
+      -->
+
+      <section class="gallery" id="gallery">
+        <div class="container">
+          <p class="section-subtitle">Photo Gallery</p>
+          <h2 class="h2 section-title">Photo's From Travellers</h2>
+          <p class="section-text">
+            Welcome to our Photo Gallery! Explore stunning photos taken by our customers on their Heaven Touch Tourism Ltd adventures. Let their experiences inspire your next journey!
+          </p>
+          <div class="swiper-container">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <figure class="gallery-image">
+                  <img src="assets/heaven/ (1).jpg" alt="Gallery image">
+                </figure>
+              </div>
+              <div class="swiper-slide">
+                <figure class="gallery-image">
+                    <img src="assets/heaven/ (1).jpg" alt="Gallery image 1">
+                </figure>
+            </div>
+            <div class="swiper-slide">
+                <figure class="gallery-image">
+                    <img src="assets/heaven/ (2).jpg" alt="Gallery image 2">
+                </figure>
+            </div>
+            <div class="swiper-slide">
+                <figure class="gallery-image">
+                    <img src="assets/heaven/ (3).jpg" alt="Gallery image 3">
+                </figure>
+            </div>
+            <div class="swiper-slide">
+                <figure class="gallery-image">
+                    <img src="assets/heaven/ (4).jpg" alt="Gallery image 4">
+                </figure>
+            </div>
+            <div class="swiper-slide">
+                <figure class="gallery-image">
+                    <img src="assets/heaven/ (5).jpg" alt="Gallery image 5">
+                </figure>
+            </div>
+            <div class="swiper-slide">
+                <figure class="gallery-image">
+                    <img src="assets/heaven/ (6).jpg" alt="Gallery image 6">
+                </figure>
+            </div>
+            <div class="swiper-slide">
+                <figure class="gallery-image">
+                    <img src="assets/heaven/ (7).jpg" alt="Gallery image 7">
+                </figure>
+            </div>
+            <div class="swiper-slide">
+                <figure class="gallery-image">
+                    <img src="assets/heaven/ (8).jpg" alt="Gallery image 8">
+                </figure>
+            </div>
+            <div class="swiper-slide">
+                <figure class="gallery-image">
+                    <img src="assets/heaven/ (9).jpg" alt="Gallery image 9">
+                </figure>
+            </div>
+            <div class="swiper-slide">
+                <figure class="gallery-image">
+                    <img src="assets/heaven/ (10).jpg" alt="Gallery image 10">
+                </figure>
+            </div>
+            <div class="swiper-slide">
+                <figure class="gallery-image">
+                    <img src="assets/heaven/ (11).jpg" alt="Gallery image 11">
+                </figure>
+            </div>
+            <div class="swiper-slide">
+                <figure class="gallery-image">
+                    <img src="assets/heaven/ (12).jpg" alt="Gallery image 12">
+                </figure>
+            </div>
+            <div class="swiper-slide">
+                <figure class="gallery-image">
+                    <img src="assets/heaven/ (13).jpg" alt="Gallery image 13">
+                </figure>
+            </div>
+            <div class="swiper-slide">
+                <figure class="gallery-image">
+                    <img src="assets/heaven/ (14).jpg" alt="Gallery image 14">
+                </figure>
+            </div>
+            <div class="swiper-slide">
+                <figure class="gallery-image">
+                    <img src="assets/heaven/ (15).jpg" alt="Gallery image 15">
+                </figure>
+            </div>
+            <div class="swiper-slide">
+                <figure class="gallery-image">
+                    <img src="assets/heaven/ (16).jpg" alt="Gallery image 16">
+                </figure>
+            </div>
+            <div class="swiper-slide">
+                <figure class="gallery-image">
+                    <img src="assets/heaven/ (17).jpg" alt="Gallery image 17">
+                </figure>
+            </div>
+            <div class="swiper-slide">
+                <figure class="gallery-image">
+                    <img src="assets/heaven/ (18).jpg" alt="Gallery image 18">
+                </figure>
+            </div>
+            <div class="swiper-slide">
+                <figure class="gallery-image">
+                    <img src="assets/heaven/ (19).jpg" alt="Gallery image 19">
+                </figure>
+            </div>
+            <div class="swiper-slide">
+                <figure class="gallery-image">
+                    <img src="assets/heaven/ (20).jpg" alt="Gallery image 20">
+                </figure>
+            </div>
+            <div class="swiper-slide">
+                <figure class="gallery-image">
+                    <img src="assets/heaven/ (21).jpg" alt="Gallery image 21">
+                </figure>
+            </div>
+            <div class="swiper-slide">
+                <figure class="gallery-image">
+                    <img src="assets/heaven/ (22).jpg" alt="Gallery image 22">
+                </figure>
+            </div>
+            <div class="swiper-slide">
+                <figure class="gallery-image">
+                    <img src="assets/heaven/ (23).jpg" alt="Gallery image 23">
+                </figure>
+            </div>
+            <div class="swiper-slide">
+                <figure class="gallery-image">
+                    <img src="assets/heaven/ (24).jpg" alt="Gallery image 24">
+                </figure>
+            </div>
+            <div class="swiper-slide">
+                <figure class="gallery-image">
+                    <img src="assets/heaven/ (25).jpg" alt="Gallery image 25">
+                </figure>
+            </div>
+            <div class="swiper-slide">
+                <figure class="gallery-image">
+                    <img src="assets/heaven/ (26).jpg" alt="Gallery image 26">
+                </figure>
+            </div>
+            <div class="swiper-slide">
+                <figure class="gallery-image">
+                    <img src="assets/heaven/ (27).jpg" alt="Gallery image 27">
+                </figure>
+            </div>
+            <div class="swiper-slide">
+                <figure class="gallery-image">
+                    <img src="assets/heaven/ (28).jpg" alt="Gallery image 28">
+                </figure>
+            </div>
+            <div class="swiper-slide">
+                <figure class="gallery-image">
+                    <img src="assets/heaven/ (29).jpg" alt="Gallery image 29">
+                </figure>
+            </div>
+            <div class="swiper-slide">
+                <figure class="gallery-image">
+                    <img src="assets/heaven/ (30).jpg" alt="Gallery image 30">
+                </figure>
+            </div>
+            <div class="swiper-slide">
+                <figure class="gallery-image">
+                    <img src="assets/heaven/ (31).jpg" alt="Gallery image 31">
+                </figure>
+            </div>
+            <div class="swiper-slide">
+                <figure class="gallery-image">
+                    <img src="assets/heaven/ (32).jpg" alt="Gallery image 32">
+                </figure>
+            </div>
+            <div class="swiper-slide">
+                <figure class="gallery-image">
+                    <img src="assets/heaven/ (33).jpg" alt="Gallery image 33">
+                </figure>
+            </div>
+            <div class="swiper-slide">
+                <figure class="gallery-image">
+                    <img src="assets/heaven/ (34).jpg" alt="Gallery image 34">
+                </figure>
+            </div>
+            <div class="swiper-slide">
+                <figure class="gallery-image">
+                    <img src="assets/heaven/ (35).jpg" alt="Gallery image 35">
+                </figure>
+            </div>
+            <div class="swiper-slide">
+                <figure class="gallery-image">
+                    <img src="assets/heaven/ (36).jpg" alt="Gallery image 36">
+                </figure>
+            </div>
+            <div class="swiper-slide">
+                <figure class="gallery-image">
+                    <img src="assets/heaven/ (37).jpg" alt="Gallery image 37">
+                </figure>
+            </div>
+            <div class="swiper-slide">
+                <figure class="gallery-image">
+                    <img src="assets/heaven/ (38).jpg" alt="Gallery image 38">
+                </figure>
+            </div>
+            <div class="swiper-slide">
+                <figure class="gallery-image">
+                    <img src="assets/heaven/ (39).jpg" alt="Gallery image 39">
+                </figure>
+            </div>
+            <div class="swiper-slide">
+                <figure class="gallery-image">
+                    <img src="assets/heaven/ (40).jpg" alt="Gallery image 40">
+                </figure>
+            </div>
+            <div class="swiper-slide">
+                <figure class="gallery-image">
+                    <img src="assets/heaven/ (41).jpg" alt="Gallery image 41">
+                </figure>
+            </div>
+            <div class="swiper-slide">
+                <figure class="gallery-image">
+                    <img src="assets/heaven/ (42).jpg" alt="Gallery image 42">
+                </figure>
+            </div>
+            <div class="swiper-slide">
+                <figure class="gallery-image">
+                    <img src="assets/heaven/ (43).jpg" alt="Gallery image 43">
+                </figure>
+            </div>
+            <div class="swiper-slide">
+                <figure class="gallery-image">
+                    <img src="assets/heaven/ (44).jpg" alt="Gallery image 44">
+                </figure>
+            </div>
+            <div class="swiper-slide">
+                <figure class="gallery-image">
+                    <img src="assets/heaven/ (45).jpg" alt="Gallery image 45">
+                </figure>
+            </div>
+            <div class="swiper-slide">
+                <figure class="gallery-image">
+                    <img src="assets/heaven/ (46).jpg" alt="Gallery image 46">
+                </figure>
+            </div>
+            <div class="swiper-slide">
+                <figure class="gallery-image">
+                    <img src="assets/heaven/ (47).jpg" alt="Gallery image 47">
+                </figure>
+            </div>
+            <div class="swiper-slide">
+                <figure class="gallery-image">
+                    <img src="assets/heaven/ (48).jpg" alt="Gallery image 48">
+                </figure>
+            </div>
+            <div class="swiper-slide">
+                <figure class="gallery-image">
+                    <img src="assets/heaven/ (49).jpg" alt="Gallery image 49">
+                </figure>
+            </div>
+            <div class="swiper-slide">
+                <figure class="gallery-image">
+                    <img src="assets/heaven/ (50).jpg" alt="Gallery image 50">
+                </figure>
+            </div>
+            <div class="swiper-slide">
+                <figure class="gallery-image">
+                    <img src="assets/heaven/ (51).jpg" alt="Gallery image 51">
+                </figure>
+            </div>
+            <div class="swiper-slide">
+                <figure class="gallery-image">
+                    <img src="assets/heaven/ (52).jpg" alt="Gallery image 52">
+                </figure>
+            </div>
+            <div class="swiper-slide">
+                <figure class="gallery-image">
+                    <img src="assets/heaven/ (53).jpg" alt="Gallery image 53">
+                </figure>
+            </div>
+            <div class="swiper-slide">
+                <figure class="gallery-image">
+                    <img src="assets/heaven/ (54).jpg" alt="Gallery image 54">
+                </figure>
+            </div>
+            <div class="swiper-slide">
+                <figure class="gallery-image">
+                    <img src="assets/heaven/ (55).jpg" alt="Gallery image 55">
+                </figure>
+            </div>
+            <div class="swiper-slide">
+                <figure class="gallery-image">
+                    <img src="assets/heaven/ (56).jpg" alt="Gallery image 56">
+                </figure>
+            </div>
+            <div class="swiper-slide">
+                <figure class="gallery-image">
+                    <img src="assets/heaven/ (57).jpg" alt="Gallery image 57">
+                </figure>
+            </div>
+            <div class="swiper-slide">
+                <figure class="gallery-image">
+                    <img src="assets/heaven/ (58).jpg" alt="Gallery image 58">
+                </figure>
+            </div>
+            <div class="swiper-slide">
+                <figure class="gallery-image">
+                    <img src="assets/heaven/ (59).jpg" alt="Gallery image 59">
+                </figure>
+            </div>
+            <div class="swiper-slide">
+                <figure class="gallery-image">
+                    <img src="assets/heaven/ (60).jpg" alt="Gallery image 60">
+                </figure>
+            </div>
+            <div class="swiper-slide">
+                <figure class="gallery-image">
+                    <img src="assets/heaven/ (61).jpg" alt="Gallery image 61">
+                </figure>
+            </div>
+            <div class="swiper-slide">
+                <figure class="gallery-image">
+                    <img src="assets/heaven/ (62).jpg" alt="Gallery image 62">
+                </figure>
+            </div>
+            <div class="swiper-slide">
+                <figure class="gallery-image">
+                    <img src="assets/heaven/ (63).jpg" alt="Gallery image 63">
+                </figure>
+            </div>
+            <div class="swiper-slide">
+                <figure class="gallery-image">
+                    <img src="assets/heaven/ (64).jpg" alt="Gallery image 64">
+                </figure>
+            </div>
+            <div class="swiper-slide">
+                <figure class="gallery-image">
+                    <img src="assets/heaven/ (65).jpg" alt="Gallery image 65">
+                </figure>
+            </div>
+            <div class="swiper-slide">
+                <figure class="gallery-image">
+                    <img src="assets/heaven/ (66).jpg" alt="Gallery image 66">
+                </figure>
+            </div>
+            <div class="swiper-slide">
+                <figure class="gallery-image">
+                    <img src="assets/heaven/ (67).jpg" alt="Gallery image 67">
+                </figure>
+            </div>
+            <div class="swiper-slide">
+                <figure class="gallery-image">
+                    <img src="assets/heaven/ (68).jpg" alt="Gallery image 68">
+                </figure>
+            </div>
+            <div class="swiper-slide">
+                <figure class="gallery-image">
+                    <img src="assets/heaven/ (69).jpg" alt="Gallery image 69">
+                </figure>
+            </div>
+            <div class="swiper-slide">
+                <figure class="gallery-image">
+                    <img src="assets/heaven/ (70).jpg" alt="Gallery image 70">
+                </figure>
+            </div>
+            <div class="swiper-slide">
+                <figure class="gallery-image">
+                    <img src="assets/heaven/ (71).jpg" alt="Gallery image 71">
+                </figure>
+            </div>
+            <div class="swiper-slide">
+                <figure class="gallery-image">
+                    <img src="assets/heaven/ (72).jpg" alt="Gallery image 72">
+                </figure>
+            </div>
+            <div class="swiper-slide">
+                <figure class="gallery-image">
+                    <img src="assets/heaven/ (73).jpg" alt="Gallery image 73">
+                </figure>
+            </div>
+            <div class="swiper-slide">
+                <figure class="gallery-image">
+                    <img src="assets/heaven/ (74).jpg" alt="Gallery image 74">
+                </figure>
+            </div>
+            <div class="swiper-slide">
+                <figure class="gallery-image">
+                    <img src="assets/heaven/ (75).jpg" alt="Gallery image 75">
+                </figure>
+            </div>
+            <div class="swiper-slide">
+                <figure class="gallery-image">
+                    <img src="assets/heaven/ (76).jpg" alt="Gallery image 76">
+                </figure>
+            </div>
+            <div class="swiper-slide">
+                <figure class="gallery-image">
+                    <img src="assets/heaven/ (77).jpg" alt="Gallery image 77">
+                </figure>
+            </div>
+            <div class="swiper-slide">
+                <figure class="gallery-image">
+                    <img src="assets/heaven/ (78).jpg" alt="Gallery image 78">
+                </figure>
+            </div>
+            <div class="swiper-slide">
+                <figure class="gallery-image">
+                    <img src="assets/heaven/ (79).jpg" alt="Gallery image 79">
+                </figure>
+            </div>
+            <div class="swiper-slide">
+                <figure class="gallery-image">
+                    <img src="assets/heaven/ (80).jpg" alt="Gallery image 80">
+                </figure>
+            </div>
+            <div class="swiper-slide">
+                <figure class="gallery-image">
+                    <img src="assets/heaven/ (81).jpg" alt="Gallery image 81">
+                </figure>
+            </div>
+            <div class="swiper-slide">
+                <figure class="gallery-image">
+                    <img src="assets/heaven/ (82).jpg" alt="Gallery image 82">
+                </figure>
+            </div>
+            <div class="swiper-slide">
+                <figure class="gallery-image">
+                    <img src="assets/heaven/ (83).jpg" alt="Gallery image 83">
+                </figure>
+            </div>
+            <div class="swiper-slide">
+                <figure class="gallery-image">
+                    <img src="assets/heaven/ (84).jpg" alt="Gallery image 84">
+                </figure>
+            </div>
+            <div class="swiper-slide">
+                <figure class="gallery-image">
+                    <img src="assets/heaven/ (85).jpg" alt="Gallery image 85">
+                </figure>
+            </div>
+            <div class="swiper-slide">
+                <figure class="gallery-image">
+                    <img src="assets/heaven/ (86).jpg" alt="Gallery image 86">
+                </figure>
+            </div>
+            <div class="swiper-slide">
+                <figure class="gallery-image">
+                    <img src="assets/heaven/ (87).jpg" alt="Gallery image 87">
+                </figure>
+            </div>
+            <div class="swiper-slide">
+                <figure class="gallery-image">
+                    <img src="assets/heaven/ (88).jpg" alt="Gallery image 88">
+                </figure>
+            </div>
+            <div class="swiper-slide">
+                <figure class="gallery-image">
+                    <img src="assets/heaven/ (89).jpg" alt="Gallery image 89">
+                </figure>
+            </div>
+            <div class="swiper-slide">
+                <figure class="gallery-image">
+                    <img src="assets/heaven/ (90).jpg" alt="Gallery image 90">
+                </figure>
+            </div>
+            <div class="swiper-slide">
+                <figure class="gallery-image">
+                    <img src="assets/heaven/ (91).jpg" alt="Gallery image 91">
+                </figure>
+            </div>
+            <div class="swiper-slide">
+                <figure class="gallery-image">
+                    <img src="assets/heaven/ (92).jpg" alt="Gallery image 92">
+                </figure>
+            </div>
+            <div class="swiper-slide">
+                <figure class="gallery-image">
+                    <img src="assets/heaven/ (93).jpg" alt="Gallery image 93">
+                </figure>
+            </div>
+            <div class="swiper-slide">
+                <figure class="gallery-image">
+                    <img src="assets/heaven/ (94).jpg" alt="Gallery image 94">
+                </figure>
+            </div>
+            <div class="swiper-slide">
+                <figure class="gallery-image">
+                    <img src="assets/heaven/ (95).jpg" alt="Gallery image 95">
+                </figure>
+            </div>
+            <div class="swiper-slide">
+                <figure class="gallery-image">
+                    <img src="assets/heaven/ (96).jpg" alt="Gallery image 96">
+                </figure>
+            </div>
+            <div class="swiper-slide">
+                <figure class="gallery-image">
+                    <img src="assets/heaven/ (97).jpg" alt="Gallery image 97">
+                </figure>
+            </div>
+            <div class="swiper-slide">
+                <figure class="gallery-image">
+                    <img src="assets/heaven/ (98).jpg" alt="Gallery image 98">
+                </figure>
+            </div>
+            <div class="swiper-slide">
+                <figure class="gallery-image">
+                    <img src="assets/heaven/ (99).jpg" alt="Gallery image 99">
+                </figure>
+            </div>
+            <div class="swiper-slide">
+                <figure class="gallery-image">
+                    <img src="assets/heaven/ (100).jpg" alt="Gallery image 100">
+                </figure>
+            </div>
+            <div class="swiper-slide">
+                <figure class="gallery-image">
+                    <img src="assets/heaven/ (101).jpg" alt="Gallery image 101">
+                </figure>
+            </div>
+            <div class="swiper-slide">
+                <figure class="gallery-image">
+                    <img src="assets/heaven/ (102).jpg" alt="Gallery image 102">
+                </figure>
+            </div>
+            <div class="swiper-slide">
+                <figure class="gallery-image">
+                    <img src="assets/heaven/ (103).jpg" alt="Gallery image 103">
+                </figure>
+            </div>
+            <div class="swiper-slide">
+                <figure class="gallery-image">
+                    <img src="assets/heaven/ (104).jpg" alt="Gallery image 104">
+                </figure>
+            </div>
+            <div class="swiper-slide">
+                <figure class="gallery-image">
+                    <img src="assets/heaven/ (105).jpg" alt="Gallery image 105">
+                </figure>
+            </div>
+            <div class="swiper-slide">
+                <figure class="gallery-image">
+                    <img src="assets/heaven/ (106).jpg" alt="Gallery image 106">
+                </figure>
+            </div>
+            <div class="swiper-slide">
+                <figure class="gallery-image">
+                    <img src="assets/heaven/ (107).jpg" alt="Gallery image 107">
+                </figure>
+            </div>
+            <div class="swiper-slide">
+                <figure class="gallery-image">
+                    <img src="assets/heaven/ (108).jpg" alt="Gallery image 108">
+                </figure>
+            </div>
+            <div class="swiper-slide">
+                <figure class="gallery-image">
+                    <img src="assets/heaven/ (109).jpg" alt="Gallery image 109">
+                </figure>
+            </div>
+            <div class="swiper-slide">
+                <figure class="gallery-image">
+                    <img src="assets/heaven/ (110).jpg" alt="Gallery image 110">
+                </figure>
+            </div>
+            <div class="swiper-slide">
+                <figure class="gallery-image">
+                    <img src="assets/heaven/ (111).jpg" alt="Gallery image 111">
+                </figure>
+            </div>
+            <div class="swiper-slide">
+                <figure class="gallery-image">
+                    <img src="assets/heaven/ (112).jpg" alt="Gallery image 112">
+                </figure>
+            </div>
+            <div class="swiper-slide">
+                <figure class="gallery-image">
+                    <img src="assets/heaven/ (113).jpg" alt="Gallery image 113">
+                </figure>
+            </div>
+            <div class="swiper-slide">
+                <figure class="gallery-image">
+                    <img src="assets/heaven/ (114).jpg" alt="Gallery image 114">
+                </figure>
+            </div>
+            <div class="swiper-slide">
+                <figure class="gallery-image">
+                    <img src="assets/heaven/115.jpg" alt="Gallery image 115">
+                </figure>
+            </div>
+            <div class="swiper-slide">
+                <figure class="gallery-image">
+                    <img src="assets/heaven/116.jpg" alt="Gallery image 116">
+                </figure>
+            </div>
+            </div>
+            <!-- Add Pagination -->
+         
+            <!-- Add Navigation -->
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+          </div>
+        </div>
+        <div id="imageModal" class="modal">
+          <span class="close">&times;</span>
+          <img class="modal-content" id="fullSizeImage">
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #CTA
+      -->
+
+      <section class="cta" id="contact">
+        <div class="container">
+
+          <div class="cta-content">
+            <p class="section-subtitle">Call To Action</p>
+
+            <h2 class="h2 section-title">Ready For Unforgatable Travel. Remember Us!</h2>
+
+            <p class="section-text">
+              Fusce hic augue velit wisi quibusdam pariatur, iusto primis, nec nemo, rutrum. Vestibulum cumque
+              laudantium. Sit ornare
+              mollitia tenetur, aptent.
+            </p>
+          </div>
+
+          <button class="btn btn-secondary">Contact Us !</button>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+
+    <div class="footer-top">
+      <div class="container">
+
+        <div class="footer-brand">
+
+          <a href="#" class="logo">
+            <img src="./assets/images/logo.svg" alt="Tourly logo">
+          </a>
+
+          <p class="footer-text">
+            Celebrate unforgettable journeys with Heaven Touch Tourism Ltd. Our personalized service, expert guidance, and commitment to quality ensure every trip exceeds expectations. Choose us for your next adventure and experience travel redefined.
+          </p>
+
+        </div>
+
+        <div class="footer-contact">
+
+          <h4 class="contact-title">Contact Us</h4>
+
+          <p class="contact-text">
+            Feel free to contact and reach us !!
+          </p>
+
+          <ul>
+
+            <li class="contact-item">
+              <ion-icon name="call-outline"></ion-icon>
+
+              <a href="tel:+01123456790" class="contact-link">+880 9639 104518</a>
+            </li>
+
+            <li class="contact-item">
+              <ion-icon name="mail-outline"></ion-icon>
+
+              <a href="heaventouch.tourism@yahoo.com" class="contact-link">heaventouch.tourism@yahoo.com</a>
+            </li>
+
+            <li class="contact-item">
+              <ion-icon name="location-outline"></ion-icon>
+
+              <address>Gulfesha Plaza (Agora, Building), shahid sangbadik selina parvin road ,3rd Floor, Moghbazar, Dhaka - 1217, Bangladesh.</address>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <div class="footer-form">
+
+          <p class="form-text">
+            Subscribe our newsletter for more update & news !!
+          </p>
+
+          <form action="" class="form-wrapper">
+            <input type="email" name="email" class="input-field" placeholder="Enter Your Email" required>
+
+            <button type="submit" class="btn btn-secondary">Subscribe</button>
+          </form>
+
+        </div>
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+
+        <p class="copyright">
+          &copy; 2022 <a href="">codewithsadee</a>. All rights reserved
+        </p>
+
+        <ul class="footer-bottom-list">
+
+          <li>
+            <a href="#" class="footer-bottom-link">Privacy Policy</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-bottom-link">Term & Condition</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-bottom-link">FAQ</a>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #GO TO TOP
+  -->
+
+  <a href="#top" class="go-top" data-go-top>
+    <ion-icon name="chevron-up-outline"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
